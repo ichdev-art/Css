@@ -1,0 +1,45 @@
+h1,h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+h2 {
+    font-style: italic;
+}
+p+a{
+    text-decoration: none;
+    transition: all 1s;
+    background: red;
+    color: yellow;
+
+}
+p+a:hover{
+    background: yellow;
+    color: red;
+}
+li {
+    list-style: none;
+    display: inline; 
+}
+nav {
+    background: green;
+    
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+div {
+    background: green;
+}
+.option1 {
+    background: #b10f2f;
+    color: blue;
+    font-style: italic;
+}
+.option2 {
+    background: rgb(183, 236, 25);
+    color: blueviolet;
+}
+#parap {
+    color: black
+}
